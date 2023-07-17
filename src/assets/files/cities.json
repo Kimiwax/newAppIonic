@@ -1,0 +1,20 @@
+{
+    "data": [
+        {
+            "name":"Monumento Bandera",
+            "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/13/e7/90/b4/monumento-a-la-bandera.jpg?w=1200&h=-1&s=1"
+        },
+        {
+            "name":"Chalten",
+            "image": "https://revistapanorama.com/wp-content/uploads/2022/04/elchalten-argentina-panorama.jpg"
+        },
+        {
+            "name":"Cordoba",
+            "image": "https://como-viviren.com/wp-content/uploads/2020/09/vivir-en-cordoba.jpg"
+        },
+        {
+            "name":"Tierra del fuego",
+            "image": "https://www.infobae.com/new-resizer/7kC4mTOctB3bfmOjz5SAqK_tG9c=/1024x512/filters:format(webp):quality(85)/cloudfront-us-east-1.images.arcpublishing.com/infobae/LE6N2AFPYBAAFG2N33GGRHJNCY.jpg"
+        }
+    ]
+}

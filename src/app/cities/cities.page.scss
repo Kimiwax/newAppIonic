@@ -1,0 +1,18 @@
+ion-toolbar{
+    background-color: var(--ion-color-mycolor);
+}
+
+ion-card{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    border-radius: 15px;
+}
+
+.card-title{
+    font-size: 23px;
+    font-weight: bold;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    
+}
