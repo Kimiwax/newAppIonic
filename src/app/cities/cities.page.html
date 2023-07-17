@@ -7,7 +7,7 @@
 <ion-content [fullscreen]="true">
   <ion-row>
     <ion-col sizeLg="6" sizeMd="6" sizeXs="12" *ngFor="let city of cities">
-      <ion-card (click) = "presentAlert2()">
+      <ion-card [routerLink]="['/city', city.id]">
         <img [src]="city.image" alt="">
         <div class="card-title">{{city.name}}</div>
       </ion-card>
