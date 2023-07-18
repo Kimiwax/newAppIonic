@@ -48,4 +48,12 @@ export class CustomersPage implements OnInit {
     }
   }
 
+  handleRefresh(event:any) {
+    this.getUsers();
+    setTimeout(() => {
+      // Any calls to load data go here
+      event.target.complete();
+    }, 2000);
+  }
+
 }

@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-login',
@@ -7,9 +8,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class LoginPage implements OnInit {
 
-  constructor() { }
+  token = "1f5as6";
+
+  constructor(private router: Router) { }
 
   ngOnInit() {
   }
 
+  login(){
+    localStorage.setItem('token', this.token);
+    this.router.navigate(['/home'])
+  }
 }
