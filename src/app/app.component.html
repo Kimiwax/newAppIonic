@@ -12,6 +12,11 @@
           </ion-menu-toggle>
         </ion-list>
 
+        <ion-item (click)="shareApp()">
+          <ion-icon slot="start" ios="share" md="share"></ion-icon>
+          <ion-label>Share</ion-label>
+        </ion-item>
+
       </ion-content>
     </ion-menu>
     <ion-router-outlet id="main-content"></ion-router-outlet>
